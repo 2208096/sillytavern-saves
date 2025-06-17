@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "NavOpened": "true",
+        "NavOpened": "false",
         "LNavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}",
         "WINavOpened": "true",
@@ -12,7 +12,6 @@
         "AlertWI_Sarah.png": "true",
         "AlertWI_Konomi.png": "true",
         "AlertWI_Silvia.png": "true",
-        "AlertWI_王子系青梅x前剑道少女天降！白学不可避.png": "true",
         "AlertWI_铃木理惠.png": "true",
         "AllowGlobalStyles-Flora.png": "false",
         "AlertWI_夏悠.png": "true",
@@ -22,11 +21,24 @@
         "Proxy_SkipConfirm_4719797195651333": "true",
         "AlertWI_Jessica & Chloe & Maya.png": "true",
         "AlertWI_🥰.png": "true",
-        "AlertWI_姬野律香.png": "true"
+        "AlertWI_姬野律香.png": "true",
+        "AlertRegex_王子系青梅x前剑道少女天降！白学不可避1.png": "true",
+        "AlertWI_0F肌肉女教练雷音（无南梁）.png": "true",
+        "AlertRegex_0F肌肉女教练雷音（无南梁）.png": "true",
+        "AlertWI_和继母与继母闺蜜的禁忌之旅.png": "true",
+        "AlertRegex_和继母与继母闺蜜的禁忌之旅.png": "true",
+        "AlertWI_李智秀.png": "true",
+        "AlertWI_性癖大世界.png": "true",
+        "AlertRegex_性癖大世界.png": "true",
+        "AlertWI_苏晓雨.png": "true",
+        "AlertRegex_苏晓雨.png": "true",
+        "AlertWI_想要被骂！.png": "true",
+        "AlertRegex_想要被骂！.png": "true",
+        "AlertWI_SCP【NSFW版】.png": "true"
     },
     "currentVersion": "1.12.13",
     "username": "王",
-    "active_character": "假小子宿舍1.png",
+    "active_character": "Sandra.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -235,9 +247,8 @@
         "play_sound_unfocused": true,
         "auto_save_msg_edits": true,
         "confirm_message_delete": true,
-        "sort_field": "name",
-        "sort_order": "asc",
-        "sort_rule": null,
+        "sort_field": "date_last_chat",
+        "sort_order": "desc",
         "font_scale": 1,
         "blur_strength": 10,
         "shadow_width": 2,
@@ -354,11 +365,11 @@
         "default_persona": null,
         "persona_descriptions": {
             "user-default.png": {
-                "description": "",
+                "description": "有一个惊人的性器官",
                 "position": 0
             }
         },
-        "persona_description": "",
+        "persona_description": "有一个惊人的性器官",
         "persona_description_position": 0,
         "persona_description_role": 0,
         "persona_description_depth": 2,
@@ -1739,7 +1750,14 @@
                 "maxDepth": null
             }
         ],
-        "character_allowed_regex": [],
+        "character_allowed_regex": [
+            "王子系青梅x前剑道少女天降！白学不可避1.png",
+            "0F肌肉女教练雷音（无南梁）.png",
+            "和继母与继母闺蜜的禁忌之旅.png",
+            "性癖大世界.png",
+            "苏晓雨.png",
+            "想要被骂！.png"
+        ],
         "tts": {
             "voiceMap": "",
             "ttsEnabled": false,
@@ -1934,10 +1952,10 @@
                 "tableConfigEventLength": "30字以内",
                 "tableConfigGrandSummaryRows": "5",
                 "tableConfigGrandSummaryLength": "200字以内",
-                "LAST_RECEIVE_TOKENS": 1626,
-                "LAST_RECEIVE_CHARS": 2255,
-                "LAST_SEND_TOKENS": 20258,
-                "LAST_SEND_CHARS": 33732
+                "LAST_RECEIVE_TOKENS": 13,
+                "LAST_RECEIVE_CHARS": 21,
+                "LAST_SEND_TOKENS": 11740,
+                "LAST_SEND_CHARS": 21914
             }
         },
         "attachments": [],
@@ -1983,7 +2001,11 @@
             "script": {
                 "global_script_enabled": true,
                 "scriptsRepository": [],
-                "characters_with_scripts": []
+                "characters_with_scripts": [
+                    "王子系青梅x前剑道少女天降！白学不可避1.png",
+                    "和继母与继母闺蜜的禁忌之旅.png",
+                    "苏晓雨.png"
+                ]
             },
             "audio": {
                 "audio_enabled": true,
@@ -2097,7 +2119,7 @@
             "id": "e26f99b2-ce5a-42cf-bf9d-ecdab242e24a",
             "name": "翻译卡",
             "folder_type": "NONE",
-            "filter_state": "EXCLUDED",
+            "filter_state": "UNDEFINED",
             "sort_order": 1,
             "is_hidden_on_character_card": false,
             "color": "",
@@ -2130,7 +2152,7 @@
             "id": "6607206c-474e-4454-aefa-b3fce57b5085",
             "name": "画风喜人",
             "folder_type": "NONE",
-            "filter_state": "UNDEFINED",
+            "filter_state": "SELECTED",
             "sort_order": 3,
             "is_hidden_on_character_card": false,
             "color": "",
@@ -2169,6 +2191,26 @@
             "color": "",
             "color2": "",
             "create_date": 1749371925023
+        },
+        {
+            "id": "46048998-26cf-4aff-ad08-aeff529c2dfd",
+            "name": "非处",
+            "folder_type": "NONE",
+            "filter_state": "EXCLUDED",
+            "sort_order": 7,
+            "color": "",
+            "color2": "",
+            "create_date": 1750116772733
+        },
+        {
+            "id": "bbde2583-8725-4642-9613-ace49c7a71f3",
+            "name": "工具",
+            "folder_type": "NONE",
+            "filter_state": "EXCLUDED",
+            "sort_order": 8,
+            "color": "",
+            "color2": "",
+            "create_date": 1750116909593
         }
     ],
     "tag_map": {
@@ -2366,11 +2408,6 @@
         "Yen.png": [
             "e26f99b2-ce5a-42cf-bf9d-ecdab242e24a"
         ],
-        "王子系青梅x前剑道少女天降！白学不可避.png": [
-            "c92a64b2-81ae-4344-a06f-f333824e89d6",
-            "cbbe2489-cc5d-44b3-920d-91b5bca215ac",
-            "7acff0a3-99e8-4e84-9e3a-ad5565aa9453"
-        ],
         "Leah.png": [
             "e26f99b2-ce5a-42cf-bf9d-ecdab242e24a"
         ],
@@ -2469,19 +2506,31 @@
         "Sandra.png": [
             "6607206c-474e-4454-aefa-b3fce57b5085",
             "cca4bc05-0ff2-4d4c-9339-728e5aa6c63b",
-            "e26f99b2-ce5a-42cf-bf9d-ecdab242e24a"
+            "e26f99b2-ce5a-42cf-bf9d-ecdab242e24a",
+            "406c7f79-0e6a-40b8-9839-c7bc7669a89b"
         ],
         "Vanilla and Chocolate.png": [
             "c92a64b2-81ae-4344-a06f-f333824e89d6",
             "e26f99b2-ce5a-42cf-bf9d-ecdab242e24a"
         ],
-        "Another World!.png": [],
-        "Fel.png": [],
-        "Holie.png": [],
+        "Another World!.png": [
+            "cca4bc05-0ff2-4d4c-9339-728e5aa6c63b"
+        ],
+        "Fel.png": [
+            "cca4bc05-0ff2-4d4c-9339-728e5aa6c63b",
+            "6607206c-474e-4454-aefa-b3fce57b5085",
+            "e26f99b2-ce5a-42cf-bf9d-ecdab242e24a"
+        ],
+        "Holie.png": [
+            "cca4bc05-0ff2-4d4c-9339-728e5aa6c63b",
+            "6607206c-474e-4454-aefa-b3fce57b5085",
+            "e26f99b2-ce5a-42cf-bf9d-ecdab242e24a"
+        ],
         "Mía.png": [
             "e26f99b2-ce5a-42cf-bf9d-ecdab242e24a",
             "cca4bc05-0ff2-4d4c-9339-728e5aa6c63b",
-            "6607206c-474e-4454-aefa-b3fce57b5085"
+            "6607206c-474e-4454-aefa-b3fce57b5085",
+            "406c7f79-0e6a-40b8-9839-c7bc7669a89b"
         ],
         "夏悠.png": [
             "7acff0a3-99e8-4e84-9e3a-ad5565aa9453",
@@ -2490,7 +2539,8 @@
         "《铜雀春深锁二乔》.png": [
             "7acff0a3-99e8-4e84-9e3a-ad5565aa9453",
             "cbbe2489-cc5d-44b3-920d-91b5bca215ac",
-            "c92a64b2-81ae-4344-a06f-f333824e89d6"
+            "c92a64b2-81ae-4344-a06f-f333824e89d6",
+            "46048998-26cf-4aff-ad08-aeff529c2dfd"
         ],
         "包养者们.png": [
             "7acff0a3-99e8-4e84-9e3a-ad5565aa9453",
@@ -2500,7 +2550,9 @@
             "7acff0a3-99e8-4e84-9e3a-ad5565aa9453",
             "cbbe2489-cc5d-44b3-920d-91b5bca215ac"
         ],
-        "Jessica & Chloe & Maya.png": [],
+        "Jessica & Chloe & Maya.png": [
+            "c92a64b2-81ae-4344-a06f-f333824e89d6"
+        ],
         "🥰.png": [
             "7acff0a3-99e8-4e84-9e3a-ad5565aa9453",
             "cbbe2489-cc5d-44b3-920d-91b5bca215ac"
@@ -2512,7 +2564,49 @@
         "假小子宿舍1.png": [
             "c92a64b2-81ae-4344-a06f-f333824e89d6",
             "7acff0a3-99e8-4e84-9e3a-ad5565aa9453"
-        ]
+        ],
+        "0F肌肉女教练雷音（无南梁）.png": [
+            "7acff0a3-99e8-4e84-9e3a-ad5565aa9453"
+        ],
+        "和继母与继母闺蜜的禁忌之旅.png": [
+            "46048998-26cf-4aff-ad08-aeff529c2dfd",
+            "c92a64b2-81ae-4344-a06f-f333824e89d6",
+            "7acff0a3-99e8-4e84-9e3a-ad5565aa9453"
+        ],
+        "李智秀.png": [
+            "7acff0a3-99e8-4e84-9e3a-ad5565aa9453",
+            "46048998-26cf-4aff-ad08-aeff529c2dfd"
+        ],
+        "全民女神奴隶妻.png": [
+            "bbde2583-8725-4642-9613-ace49c7a71f3"
+        ],
+        "苏晓雨.png": [
+            "7acff0a3-99e8-4e84-9e3a-ad5565aa9453",
+            "cbbe2489-cc5d-44b3-920d-91b5bca215ac"
+        ],
+        "完美玩物养成系统.png": [
+            "bbde2583-8725-4642-9613-ace49c7a71f3"
+        ],
+        "王子系青梅x前剑道少女天降！白学不可避1.png": [
+            "cbbe2489-cc5d-44b3-920d-91b5bca215ac",
+            "7acff0a3-99e8-4e84-9e3a-ad5565aa9453",
+            "c92a64b2-81ae-4344-a06f-f333824e89d6"
+        ],
+        "想要被骂！.png": [
+            "7acff0a3-99e8-4e84-9e3a-ad5565aa9453",
+            "cbbe2489-cc5d-44b3-920d-91b5bca215ac"
+        ],
+        "性癖大世界.png": [
+            "7acff0a3-99e8-4e84-9e3a-ad5565aa9453",
+            "bbde2583-8725-4642-9613-ace49c7a71f3"
+        ],
+        "SCP【NSFW版】.png": [
+            "7acff0a3-99e8-4e84-9e3a-ad5565aa9453",
+            "406c7f79-0e6a-40b8-9839-c7bc7669a89b",
+            "cbbe2489-cc5d-44b3-920d-91b5bca215ac"
+        ],
+        "Haachama.png": [],
+        "Deserea.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
@@ -4347,11 +4441,11 @@
                     },
                     {
                         "identifier": "e0b09df6-2c1d-422f-b52c-a9cedf787aa5",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "e7b85762-73d1-4dad-a373-dd1ae181c8be",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "751a591c-3357-4902-8ae6-81df592d09d1",
@@ -4363,7 +4457,7 @@
                     },
                     {
                         "identifier": "b7d078d7-c431-4ce4-898e-b6decb75698d",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "80488c06-1d0a-4a8a-88c1-cafe84f62d8f",
@@ -4371,7 +4465,7 @@
                     },
                     {
                         "identifier": "aa0d4562-1814-4ac2-96fe-9c24588b2d24",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "f1297395-3b20-49d3-8ec3-2c0c636cd6f6",
@@ -4411,7 +4505,7 @@
                     },
                     {
                         "identifier": "d3f9e3c6-cc21-4913-9a94-4dfccfa3f1c4",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "9c667918-89db-4926-b5a4-1683fde0f7e3",
