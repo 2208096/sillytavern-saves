@@ -38,7 +38,7 @@
     },
     "currentVersion": "1.12.13",
     "username": "王",
-    "active_character": "Daphne.png",
+    "active_character": "Sandra.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -365,11 +365,11 @@
         "default_persona": null,
         "persona_descriptions": {
             "user-default.png": {
-                "description": "",
+                "description": "有一个惊人的性器官",
                 "position": 0
             }
         },
-        "persona_description": "",
+        "persona_description": "有一个惊人的性器官",
         "persona_description_position": 0,
         "persona_description_role": 0,
         "persona_description_depth": 2,
@@ -2152,7 +2152,7 @@
             "id": "6607206c-474e-4454-aefa-b3fce57b5085",
             "name": "画风喜人",
             "folder_type": "NONE",
-            "filter_state": "UNDEFINED",
+            "filter_state": "SELECTED",
             "sort_order": 3,
             "is_hidden_on_character_card": false,
             "color": "",
@@ -2174,7 +2174,7 @@
             "id": "406c7f79-0e6a-40b8-9839-c7bc7669a89b",
             "name": "有趣",
             "folder_type": "NONE",
-            "filter_state": "SELECTED",
+            "filter_state": "UNDEFINED",
             "sort_order": 5,
             "is_hidden_on_character_card": false,
             "color": "",
@@ -2506,7 +2506,8 @@
         "Sandra.png": [
             "6607206c-474e-4454-aefa-b3fce57b5085",
             "cca4bc05-0ff2-4d4c-9339-728e5aa6c63b",
-            "e26f99b2-ce5a-42cf-bf9d-ecdab242e24a"
+            "e26f99b2-ce5a-42cf-bf9d-ecdab242e24a",
+            "406c7f79-0e6a-40b8-9839-c7bc7669a89b"
         ],
         "Vanilla and Chocolate.png": [
             "c92a64b2-81ae-4344-a06f-f333824e89d6",
@@ -2528,7 +2529,8 @@
         "Mía.png": [
             "e26f99b2-ce5a-42cf-bf9d-ecdab242e24a",
             "cca4bc05-0ff2-4d4c-9339-728e5aa6c63b",
-            "6607206c-474e-4454-aefa-b3fce57b5085"
+            "6607206c-474e-4454-aefa-b3fce57b5085",
+            "406c7f79-0e6a-40b8-9839-c7bc7669a89b"
         ],
         "夏悠.png": [
             "7acff0a3-99e8-4e84-9e3a-ad5565aa9453",
