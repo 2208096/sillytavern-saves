@@ -38,7 +38,7 @@
     },
     "currentVersion": "1.12.13",
     "username": "王",
-    "active_character": "假小子宿舍1.png",
+    "active_character": "Sandra.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -1952,8 +1952,8 @@
                 "tableConfigEventLength": "30字以内",
                 "tableConfigGrandSummaryRows": "5",
                 "tableConfigGrandSummaryLength": "200字以内",
-                "LAST_RECEIVE_TOKENS": 1352,
-                "LAST_RECEIVE_CHARS": 1866,
+                "LAST_RECEIVE_TOKENS": 396,
+                "LAST_RECEIVE_CHARS": 505,
                 "LAST_SEND_TOKENS": 8462,
                 "LAST_SEND_CHARS": 13470
             }
@@ -2141,7 +2141,7 @@
             "id": "cbbe2489-cc5d-44b3-920d-91b5bca215ac",
             "name": "精品",
             "folder_type": "NONE",
-            "filter_state": "EXCLUDED",
+            "filter_state": "UNDEFINED",
             "sort_order": 2,
             "is_hidden_on_character_card": false,
             "color": "",
@@ -2537,7 +2537,8 @@
         "《铜雀春深锁二乔》.png": [
             "7acff0a3-99e8-4e84-9e3a-ad5565aa9453",
             "cbbe2489-cc5d-44b3-920d-91b5bca215ac",
-            "c92a64b2-81ae-4344-a06f-f333824e89d6"
+            "c92a64b2-81ae-4344-a06f-f333824e89d6",
+            "46048998-26cf-4aff-ad08-aeff529c2dfd"
         ],
         "包养者们.png": [
             "7acff0a3-99e8-4e84-9e3a-ad5565aa9453",
