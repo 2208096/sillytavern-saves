@@ -249,6 +249,7 @@
         "confirm_message_delete": true,
         "sort_field": "date_last_chat",
         "sort_order": "desc",
+        "sort_rule": null,
         "font_scale": 1,
         "blur_strength": 10,
         "shadow_width": 2,
@@ -4685,7 +4686,7 @@
         ],
         "openrouter_allow_fallbacks": true,
         "openrouter_middleout": "auto",
-        "reverse_proxy": "",
+        "reverse_proxy": "http://127.0.0.1:8889",
         "chat_completion_source": "makersuite",
         "max_context_unlocked": true,
         "api_url_scale": "",
@@ -4730,8 +4731,8 @@
         }
     ],
     "selected_proxy": {
-        "name": "None",
-        "url": "",
+        "name": "饭袋",
+        "url": "http://127.0.0.1:8889",
         "password": ""
     }
 }
