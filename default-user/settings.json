@@ -1952,10 +1952,10 @@
                 "tableConfigEventLength": "30字以内",
                 "tableConfigGrandSummaryRows": "5",
                 "tableConfigGrandSummaryLength": "200字以内",
-                "LAST_RECEIVE_TOKENS": 1177,
-                "LAST_RECEIVE_CHARS": 1648,
-                "LAST_SEND_TOKENS": 4548,
-                "LAST_SEND_CHARS": 11182
+                "LAST_RECEIVE_TOKENS": 1659,
+                "LAST_RECEIVE_CHARS": 2351,
+                "LAST_SEND_TOKENS": 6302,
+                "LAST_SEND_CHARS": 13765
             }
         },
         "attachments": [],
