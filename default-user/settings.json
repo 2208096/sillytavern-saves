@@ -1953,10 +1953,10 @@
                 "tableConfigEventLength": "30字以内",
                 "tableConfigGrandSummaryRows": "5",
                 "tableConfigGrandSummaryLength": "200字以内",
-                "LAST_RECEIVE_TOKENS": 1632,
-                "LAST_RECEIVE_CHARS": 2323,
-                "LAST_SEND_TOKENS": 25023,
-                "LAST_SEND_CHARS": 42108
+                "LAST_RECEIVE_TOKENS": 1489,
+                "LAST_RECEIVE_CHARS": 2169,
+                "LAST_SEND_TOKENS": 28783,
+                "LAST_SEND_CHARS": 47639
             }
         },
         "attachments": [],
@@ -2113,7 +2113,7 @@
                     "gemini-2.5-pro"
                 ]
             },
-            "google_model": "gemini-2.5-pro-preview-06-05"
+            "google_model": "gemini-2.5-pro"
         }
     },
     "tags": [
@@ -2680,7 +2680,7 @@
         "min_p_openai": 0,
         "top_a_openai": 0,
         "repetition_penalty_openai": 1,
-        "stream_openai": true,
+        "stream_openai": false,
         "openai_max_context": 1000000,
         "openai_max_tokens": 65535,
         "wrap_in_quotes": false,
@@ -4662,7 +4662,7 @@
         "personality_format": "[{{char}}'s personality: {{personality}}]",
         "openai_model": "gpt-4-turbo",
         "claude_model": "claude-3-5-sonnet-20240620",
-        "google_model": "gemini-2.5-pro-preview-06-05",
+        "google_model": "gemini-2.5-pro",
         "ai21_model": "jamba-1.5-large",
         "mistralai_model": "mistral-large-latest",
         "cohere_model": "command-r",
