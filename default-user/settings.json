@@ -3,7 +3,7 @@
     "accountStorage": {
         "__migrated": "1",
         "NavOpened": "true",
-        "LNavOpened": "true",
+        "LNavOpened": "false",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}",
         "WINavOpened": "true",
         "SelectedNavTab": "rm_button_characters",
@@ -1953,10 +1953,10 @@
                 "tableConfigEventLength": "30字以内",
                 "tableConfigGrandSummaryRows": "5",
                 "tableConfigGrandSummaryLength": "200字以内",
-                "LAST_RECEIVE_TOKENS": 75,
-                "LAST_RECEIVE_CHARS": 106,
-                "LAST_SEND_TOKENS": 33144,
-                "LAST_SEND_CHARS": 54021
+                "LAST_RECEIVE_TOKENS": 44,
+                "LAST_RECEIVE_CHARS": 77,
+                "LAST_SEND_TOKENS": 36548,
+                "LAST_SEND_CHARS": 58890
             }
         },
         "attachments": [],
@@ -4395,7 +4395,7 @@
                     },
                     {
                         "identifier": "4e8814a2-0363-4b98-8a59-f933f005d06d",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "afb7f55c-007e-4f6a-9a9b-2df790155d1b",
@@ -4511,11 +4511,11 @@
                     },
                     {
                         "identifier": "9c667918-89db-4926-b5a4-1683fde0f7e3",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "b6d0f461-d1b7-4e64-a203-802b5d4194a2",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "0d16acb2-27d7-4de2-9aca-37ccc5f7667f",
