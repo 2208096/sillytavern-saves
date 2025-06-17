@@ -38,7 +38,7 @@
     },
     "currentVersion": "1.12.13",
     "username": "王",
-    "active_character": "Fel.png",
+    "active_character": "Sandra.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -247,8 +247,8 @@
         "play_sound_unfocused": true,
         "auto_save_msg_edits": true,
         "confirm_message_delete": true,
-        "sort_field": "name",
-        "sort_order": "asc",
+        "sort_field": "date_last_chat",
+        "sort_order": "desc",
         "sort_rule": null,
         "font_scale": 1,
         "blur_strength": 10,
@@ -366,11 +366,11 @@
         "default_persona": null,
         "persona_descriptions": {
             "user-default.png": {
-                "description": "",
+                "description": "有一个惊人的性器官",
                 "position": 0
             }
         },
-        "persona_description": "",
+        "persona_description": "有一个惊人的性器官",
         "persona_description_position": 0,
         "persona_description_role": 0,
         "persona_description_depth": 2,
@@ -1953,10 +1953,10 @@
                 "tableConfigEventLength": "30字以内",
                 "tableConfigGrandSummaryRows": "5",
                 "tableConfigGrandSummaryLength": "200字以内",
-                "LAST_RECEIVE_TOKENS": 439,
-                "LAST_RECEIVE_CHARS": 1784,
-                "LAST_SEND_TOKENS": 21804,
-                "LAST_SEND_CHARS": 35044
+                "LAST_RECEIVE_TOKENS": 109,
+                "LAST_RECEIVE_CHARS": 169,
+                "LAST_SEND_TOKENS": 28783,
+                "LAST_SEND_CHARS": 47639
             }
         },
         "attachments": [],
@@ -2043,7 +2043,7 @@
                 "isEdgeControlsCollapsed": true,
                 "isVisibleSettingsPanel": true,
                 "saveTopPosition": "",
-                "hiddenEdgeControls": false
+                "hiddenEdgeControls": true
             }
         },
         "EjsTemplate": {
@@ -2109,10 +2109,11 @@
                 "openai": [],
                 "google": [
                     "kingfall-ab-test",
-                    "gemini-2.5-pro-preview-06-05"
+                    "gemini-2.5-pro-preview-06-05",
+                    "gemini-2.5-pro"
                 ]
             },
-            "google_model": "gemini-2.5-pro-preview-06-05"
+            "google_model": "gemini-2.5-pro"
         }
     },
     "tags": [
@@ -2120,7 +2121,7 @@
             "id": "e26f99b2-ce5a-42cf-bf9d-ecdab242e24a",
             "name": "翻译卡",
             "folder_type": "NONE",
-            "filter_state": "EXCLUDED",
+            "filter_state": "UNDEFINED",
             "sort_order": 1,
             "is_hidden_on_character_card": false,
             "color": "",
@@ -2153,7 +2154,7 @@
             "id": "6607206c-474e-4454-aefa-b3fce57b5085",
             "name": "画风喜人",
             "folder_type": "NONE",
-            "filter_state": "UNDEFINED",
+            "filter_state": "SELECTED",
             "sort_order": 3,
             "is_hidden_on_character_card": false,
             "color": "",
@@ -2186,7 +2187,7 @@
             "id": "7acff0a3-99e8-4e84-9e3a-ad5565aa9453",
             "name": "中文",
             "folder_type": "NONE",
-            "filter_state": "EXCLUDED",
+            "filter_state": "UNDEFINED",
             "sort_order": 6,
             "is_hidden_on_character_card": false,
             "color": "",
@@ -2207,7 +2208,7 @@
             "id": "bbde2583-8725-4642-9613-ace49c7a71f3",
             "name": "工具",
             "folder_type": "NONE",
-            "filter_state": "UNDEFINED",
+            "filter_state": "EXCLUDED",
             "sort_order": 8,
             "color": "",
             "color2": "",
@@ -2507,7 +2508,8 @@
         "Sandra.png": [
             "6607206c-474e-4454-aefa-b3fce57b5085",
             "cca4bc05-0ff2-4d4c-9339-728e5aa6c63b",
-            "e26f99b2-ce5a-42cf-bf9d-ecdab242e24a"
+            "e26f99b2-ce5a-42cf-bf9d-ecdab242e24a",
+            "406c7f79-0e6a-40b8-9839-c7bc7669a89b"
         ],
         "Vanilla and Chocolate.png": [
             "c92a64b2-81ae-4344-a06f-f333824e89d6",
@@ -2518,16 +2520,19 @@
         ],
         "Fel.png": [
             "cca4bc05-0ff2-4d4c-9339-728e5aa6c63b",
-            "6607206c-474e-4454-aefa-b3fce57b5085"
+            "6607206c-474e-4454-aefa-b3fce57b5085",
+            "e26f99b2-ce5a-42cf-bf9d-ecdab242e24a"
         ],
         "Holie.png": [
             "cca4bc05-0ff2-4d4c-9339-728e5aa6c63b",
-            "6607206c-474e-4454-aefa-b3fce57b5085"
+            "6607206c-474e-4454-aefa-b3fce57b5085",
+            "e26f99b2-ce5a-42cf-bf9d-ecdab242e24a"
         ],
         "Mía.png": [
             "e26f99b2-ce5a-42cf-bf9d-ecdab242e24a",
             "cca4bc05-0ff2-4d4c-9339-728e5aa6c63b",
-            "6607206c-474e-4454-aefa-b3fce57b5085"
+            "6607206c-474e-4454-aefa-b3fce57b5085",
+            "406c7f79-0e6a-40b8-9839-c7bc7669a89b"
         ],
         "夏悠.png": [
             "7acff0a3-99e8-4e84-9e3a-ad5565aa9453",
@@ -2536,7 +2541,8 @@
         "《铜雀春深锁二乔》.png": [
             "7acff0a3-99e8-4e84-9e3a-ad5565aa9453",
             "cbbe2489-cc5d-44b3-920d-91b5bca215ac",
-            "c92a64b2-81ae-4344-a06f-f333824e89d6"
+            "c92a64b2-81ae-4344-a06f-f333824e89d6",
+            "46048998-26cf-4aff-ad08-aeff529c2dfd"
         ],
         "包养者们.png": [
             "7acff0a3-99e8-4e84-9e3a-ad5565aa9453",
@@ -2561,7 +2567,6 @@
             "c92a64b2-81ae-4344-a06f-f333824e89d6",
             "7acff0a3-99e8-4e84-9e3a-ad5565aa9453"
         ],
-        "default_Seraphina.png": [],
         "0F肌肉女教练雷音（无南梁）.png": [
             "7acff0a3-99e8-4e84-9e3a-ad5565aa9453"
         ],
@@ -2574,12 +2579,16 @@
             "7acff0a3-99e8-4e84-9e3a-ad5565aa9453",
             "46048998-26cf-4aff-ad08-aeff529c2dfd"
         ],
-        "全民女神奴隶妻.png": [],
+        "全民女神奴隶妻.png": [
+            "bbde2583-8725-4642-9613-ace49c7a71f3"
+        ],
         "苏晓雨.png": [
             "7acff0a3-99e8-4e84-9e3a-ad5565aa9453",
             "cbbe2489-cc5d-44b3-920d-91b5bca215ac"
         ],
-        "完美玩物养成系统.png": [],
+        "完美玩物养成系统.png": [
+            "bbde2583-8725-4642-9613-ace49c7a71f3"
+        ],
         "王子系青梅x前剑道少女天降！白学不可避1.png": [
             "cbbe2489-cc5d-44b3-920d-91b5bca215ac",
             "7acff0a3-99e8-4e84-9e3a-ad5565aa9453",
@@ -2597,7 +2606,9 @@
             "7acff0a3-99e8-4e84-9e3a-ad5565aa9453",
             "406c7f79-0e6a-40b8-9839-c7bc7669a89b",
             "cbbe2489-cc5d-44b3-920d-91b5bca215ac"
-        ]
+        ],
+        "Haachama.png": [],
+        "Deserea.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
@@ -2669,7 +2680,7 @@
         "min_p_openai": 0,
         "top_a_openai": 0,
         "repetition_penalty_openai": 1,
-        "stream_openai": false,
+        "stream_openai": true,
         "openai_max_context": 1000000,
         "openai_max_tokens": 65535,
         "wrap_in_quotes": false,
@@ -4292,7 +4303,7 @@
                     },
                     {
                         "identifier": "2fc1f156-6c03-41ce-97ff-4fb5dc63bf2f",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "e7b03ce5-4105-4407-a30b-5a8197a20e33",
@@ -4416,7 +4427,7 @@
                     },
                     {
                         "identifier": "b6dce6b1-3af6-4bec-aefe-d454b2c46143",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "705c5d52-a4c2-4149-bf18-4aede984b522",
@@ -4436,11 +4447,11 @@
                     },
                     {
                         "identifier": "e7b85762-73d1-4dad-a373-dd1ae181c8be",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "751a591c-3357-4902-8ae6-81df592d09d1",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "63185a41-de15-4ed0-971f-b16eb2c6ff1d",
@@ -4516,7 +4527,7 @@
                     },
                     {
                         "identifier": "868d1be4-b1cc-4d6d-9841-3d1092669e5d",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "51e5fe9a-2c44-4d91-acca-f18f63fe77eb",
@@ -4528,7 +4539,7 @@
                     },
                     {
                         "identifier": "bab814a0-9eb4-46d2-b55b-1c5e7908a238",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "fdcc5b43-40ee-4ca8-844a-70c1a37d81e6",
@@ -4651,7 +4662,7 @@
         "personality_format": "[{{char}}'s personality: {{personality}}]",
         "openai_model": "gpt-4-turbo",
         "claude_model": "claude-3-5-sonnet-20240620",
-        "google_model": "gemini-2.5-pro-preview-06-05",
+        "google_model": "gemini-2.5-pro",
         "ai21_model": "jamba-1.5-large",
         "mistralai_model": "mistral-large-latest",
         "cohere_model": "command-r",
