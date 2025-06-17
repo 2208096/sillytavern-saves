@@ -1952,10 +1952,10 @@
                 "tableConfigEventLength": "30字以内",
                 "tableConfigGrandSummaryRows": "5",
                 "tableConfigGrandSummaryLength": "200字以内",
-                "LAST_RECEIVE_TOKENS": 866,
-                "LAST_RECEIVE_CHARS": 1194,
-                "LAST_SEND_TOKENS": 22767,
-                "LAST_SEND_CHARS": 37877
+                "LAST_RECEIVE_TOKENS": 46,
+                "LAST_RECEIVE_CHARS": 64,
+                "LAST_SEND_TOKENS": 24621,
+                "LAST_SEND_CHARS": 40603
             }
         },
         "attachments": [],
@@ -2042,7 +2042,7 @@
                 "isEdgeControlsCollapsed": true,
                 "isVisibleSettingsPanel": true,
                 "saveTopPosition": "",
-                "hiddenEdgeControls": false
+                "hiddenEdgeControls": true
             }
         },
         "EjsTemplate": {
@@ -4685,7 +4685,7 @@
         ],
         "openrouter_allow_fallbacks": true,
         "openrouter_middleout": "auto",
-        "reverse_proxy": "http://127.0.0.1:8889",
+        "reverse_proxy": "",
         "chat_completion_source": "makersuite",
         "max_context_unlocked": true,
         "api_url_scale": "",
@@ -4730,8 +4730,8 @@
         }
     ],
     "selected_proxy": {
-        "name": "饭袋",
-        "url": "http://127.0.0.1:8889",
+        "name": "None",
+        "url": "",
         "password": ""
     }
 }
