@@ -6,7 +6,7 @@
         "LNavOpened": "false",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}",
         "WINavOpened": "true",
-        "SelectedNavTab": "rm_button_characters",
+        "SelectedNavTab": "rm_button_selected_ch",
         "mediaWarningShown:Cecily.png": "true",
         "AlertWI_Chiyo and Yumiko.png": "true",
         "AlertWI_Sarah.png": "true",
@@ -1952,8 +1952,8 @@
                 "tableConfigEventLength": "30字以内",
                 "tableConfigGrandSummaryRows": "5",
                 "tableConfigGrandSummaryLength": "200字以内",
-                "LAST_RECEIVE_TOKENS": 396,
-                "LAST_RECEIVE_CHARS": 505,
+                "LAST_RECEIVE_TOKENS": 306,
+                "LAST_RECEIVE_CHARS": 379,
                 "LAST_SEND_TOKENS": 8462,
                 "LAST_SEND_CHARS": 13470
             }
