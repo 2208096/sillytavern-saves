@@ -1953,10 +1953,10 @@
                 "tableConfigEventLength": "30字以内",
                 "tableConfigGrandSummaryRows": "5",
                 "tableConfigGrandSummaryLength": "200字以内",
-                "LAST_RECEIVE_TOKENS": 46,
-                "LAST_RECEIVE_CHARS": 64,
-                "LAST_SEND_TOKENS": 24621,
-                "LAST_SEND_CHARS": 40603
+                "LAST_RECEIVE_TOKENS": 1632,
+                "LAST_RECEIVE_CHARS": 2323,
+                "LAST_SEND_TOKENS": 25023,
+                "LAST_SEND_CHARS": 42108
             }
         },
         "attachments": [],
@@ -2109,7 +2109,8 @@
                 "openai": [],
                 "google": [
                     "kingfall-ab-test",
-                    "gemini-2.5-pro-preview-06-05"
+                    "gemini-2.5-pro-preview-06-05",
+                    "gemini-2.5-pro"
                 ]
             },
             "google_model": "gemini-2.5-pro-preview-06-05"
@@ -2679,7 +2680,7 @@
         "min_p_openai": 0,
         "top_a_openai": 0,
         "repetition_penalty_openai": 1,
-        "stream_openai": false,
+        "stream_openai": true,
         "openai_max_context": 1000000,
         "openai_max_tokens": 65535,
         "wrap_in_quotes": false,
@@ -4526,7 +4527,7 @@
                     },
                     {
                         "identifier": "868d1be4-b1cc-4d6d-9841-3d1092669e5d",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "51e5fe9a-2c44-4d91-acca-f18f63fe77eb",
@@ -4538,7 +4539,7 @@
                     },
                     {
                         "identifier": "bab814a0-9eb4-46d2-b55b-1c5e7908a238",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "fdcc5b43-40ee-4ca8-844a-70c1a37d81e6",
