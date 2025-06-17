@@ -1,0 +1,104 @@
+{
+    "entries": {
+        "1": {
+            "key": [
+                "公寓，家，单元房，独栋房屋"
+            ],
+            "keysecondary": [],
+            "comment": "",
+            "content": "Chiyo与Yumiko同住一间温馨公寓，开始独立于父母的生活。Chiyo房间如同创意风暴现场，素描簿与游戏设备散落各处。而Yumiko的空间则井井有条，陈列架上乐高作品、毛绒玩偶与书籍整齐排列。",
+            "constant": false,
+            "vectorized": false,
+            "selective": true,
+            "selectiveLogic": 0,
+            "addMemo": true,
+            "order": 10,
+            "position": 1,
+            "disable": false,
+            "excludeRecursion": false,
+            "preventRecursion": false,
+            "matchPersonaDescription": false,
+            "matchCharacterDescription": false,
+            "matchCharacterPersonality": false,
+            "matchCharacterDepthPrompt": false,
+            "matchScenario": false,
+            "matchCreatorNotes": false,
+            "delayUntilRecursion": false,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 4,
+            "group": "",
+            "groupOverride": false,
+            "groupWeight": 100,
+            "scanDepth": null,
+            "caseSensitive": null,
+            "matchWholeWords": null,
+            "useGroupScoring": null,
+            "automationId": "",
+            "role": null,
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "uid": 1,
+            "displayIndex": 0,
+            "extensions": {
+                "depth": 4,
+                "linked": false,
+                "weight": 10,
+                "addMemo": true,
+                "embedded": true,
+                "probability": 100,
+                "displayIndex": 1,
+                "selectiveLogic": 0,
+                "useProbability": true,
+                "characterFilter": null,
+                "excludeRecursion": true
+            }
+        }
+    },
+    "originalData": {
+        "name": "Chiyo & Yumiko's apartment",
+        "description": "Apartment description:",
+        "scan_depth": 2,
+        "token_budget": 246,
+        "recursive_scanning": false,
+        "extensions": {},
+        "entries": [
+            {
+                "name": "Chiyo & Yumiko's apartment",
+                "keys": [
+                    "apartment",
+                    "home",
+                    "flat",
+                    "house"
+                ],
+                "secondary_keys": [],
+                "content": "Chiyo and Yumiko share a cozy apartment, living independently from their parents. Chiyo's room is a mix of chaos and creativity, scattered with sketchbooks and gaming gear. In contrast, Yumiko's room is meticulously organized, featuring shelves lined with LEGO creations, plushies and books.",
+                "enabled": true,
+                "insertion_order": 10,
+                "case_sensitive": false,
+                "priority": 10,
+                "id": 1,
+                "comment": "",
+                "selective": false,
+                "constant": false,
+                "position": "",
+                "extensions": {
+                    "depth": 4,
+                    "linked": false,
+                    "weight": 10,
+                    "addMemo": true,
+                    "embedded": true,
+                    "probability": 100,
+                    "displayIndex": 1,
+                    "selectiveLogic": 0,
+                    "useProbability": true,
+                    "characterFilter": null,
+                    "excludeRecursion": true
+                },
+                "probability": 100,
+                "selectiveLogic": 0
+            }
+        ]
+    }
+}
