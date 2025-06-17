@@ -287,7 +287,7 @@
         "timer_enabled": true,
         "timestamps_enabled": true,
         "timestamp_model_icon": true,
-        "mesIDDisplay_enabled": true,
+        "mesIDDisplay_enabled": false,
         "hideChatAvatars_enabled": false,
         "max_context_unlocked": false,
         "message_token_count_enabled": false,
@@ -1953,10 +1953,10 @@
                 "tableConfigEventLength": "30字以内",
                 "tableConfigGrandSummaryRows": "5",
                 "tableConfigGrandSummaryLength": "200字以内",
-                "LAST_RECEIVE_TOKENS": 75,
-                "LAST_RECEIVE_CHARS": 106,
-                "LAST_SEND_TOKENS": 33144,
-                "LAST_SEND_CHARS": 54021
+                "LAST_RECEIVE_TOKENS": 2100,
+                "LAST_RECEIVE_CHARS": 2931,
+                "LAST_SEND_TOKENS": 33018,
+                "LAST_SEND_CHARS": 53847
             }
         },
         "attachments": [],
