@@ -1959,10 +1959,10 @@
                 "tableConfigEventLength": "30字以内",
                 "tableConfigGrandSummaryRows": "5",
                 "tableConfigGrandSummaryLength": "200字以内",
-                "LAST_RECEIVE_TOKENS": 1216,
-                "LAST_RECEIVE_CHARS": 1722,
-                "LAST_SEND_TOKENS": 5534,
-                "LAST_SEND_CHARS": 10945
+                "LAST_RECEIVE_TOKENS": 18,
+                "LAST_RECEIVE_CHARS": 25,
+                "LAST_SEND_TOKENS": 4308,
+                "LAST_SEND_CHARS": 9184
             }
         },
         "attachments": [],
@@ -4664,7 +4664,7 @@
                     },
                     {
                         "identifier": "9880daca-1c3a-4532-8004-ecc779b6c980",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "d219981f-4a6b-4e40-b38d-2e941e8529be",
