@@ -42,7 +42,7 @@
     },
     "currentVersion": "1.12.13",
     "username": "王",
-    "active_character": "Lily the Runaway.png",
+    "active_character": "Vanessa.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -1959,8 +1959,8 @@
                 "tableConfigEventLength": "30字以内",
                 "tableConfigGrandSummaryRows": "5",
                 "tableConfigGrandSummaryLength": "200字以内",
-                "LAST_RECEIVE_TOKENS": 268,
-                "LAST_RECEIVE_CHARS": 1182,
+                "LAST_RECEIVE_TOKENS": 398,
+                "LAST_RECEIVE_CHARS": 547,
                 "LAST_SEND_TOKENS": 68090,
                 "LAST_SEND_CHARS": 104780
             }
@@ -2623,7 +2623,9 @@
             "7acff0a3-99e8-4e84-9e3a-ad5565aa9453",
             "cbbe2489-cc5d-44b3-920d-91b5bca215ac"
         ],
-        "Lily the Runaway.png": [],
+        "Lily the Runaway.png": [
+            "e26f99b2-ce5a-42cf-bf9d-ecdab242e24a"
+        ],
         "Melissa.png": [],
         "The Road Trip.png": [],
         "Vanessa.png": []
