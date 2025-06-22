@@ -35,11 +35,14 @@
         "AlertRegex_想要被骂！.png": "true",
         "AlertWI_SCP【NSFW版】.png": "true",
         "AlertRegex_王子系青梅x前剑道少女天降！白学不可避.png": "true",
-        "AlertWI_大英警察.png": "true"
+        "AlertWI_存在忽视女孩.png": "true",
+        "AlertRegex_存在忽视女孩.png": "true",
+        "AlertWI_由纪子.png": "true",
+        "AlertRegex_由纪子.png": "true"
     },
     "currentVersion": "1.12.13",
     "username": "王",
-    "active_character": "大英警察.png",
+    "active_character": "Lily the Runaway.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -1758,7 +1761,9 @@
             "性癖大世界.png",
             "苏晓雨.png",
             "想要被骂！.png",
-            "王子系青梅x前剑道少女天降！白学不可避.png"
+            "王子系青梅x前剑道少女天降！白学不可避.png",
+            "存在忽视女孩.png",
+            "由纪子.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1954,8 +1959,8 @@
                 "tableConfigEventLength": "30字以内",
                 "tableConfigGrandSummaryRows": "5",
                 "tableConfigGrandSummaryLength": "200字以内",
-                "LAST_RECEIVE_TOKENS": 1858,
-                "LAST_RECEIVE_CHARS": 2556,
+                "LAST_RECEIVE_TOKENS": 268,
+                "LAST_RECEIVE_CHARS": 1182,
                 "LAST_SEND_TOKENS": 68090,
                 "LAST_SEND_CHARS": 104780
             }
@@ -2610,7 +2615,18 @@
             "cbbe2489-cc5d-44b3-920d-91b5bca215ac",
             "c92a64b2-81ae-4344-a06f-f333824e89d6"
         ],
-        "大英警察.png": []
+        "存在忽视女孩.png": [
+            "7acff0a3-99e8-4e84-9e3a-ad5565aa9453",
+            "cbbe2489-cc5d-44b3-920d-91b5bca215ac"
+        ],
+        "由纪子.png": [
+            "7acff0a3-99e8-4e84-9e3a-ad5565aa9453",
+            "cbbe2489-cc5d-44b3-920d-91b5bca215ac"
+        ],
+        "Lily the Runaway.png": [],
+        "Melissa.png": [],
+        "The Road Trip.png": [],
+        "Vanessa.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
