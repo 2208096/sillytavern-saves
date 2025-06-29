@@ -38,7 +38,12 @@
         "AlertWI_存在忽视女孩.png": "true",
         "AlertRegex_存在忽视女孩.png": "true",
         "AlertWI_由纪子.png": "true",
-        "AlertRegex_由纪子.png": "true"
+        "AlertRegex_由纪子.png": "true",
+        "AlertWI_哆啦C梦性爱陪伴机器人[哆啦A梦成人版]v1.2.png": "true",
+        "AlertWI_浅叶凌香.png": "true",
+        "AlertRegex_浅叶凌香.png": "true",
+        "AlertWI_身为纯阳之体，用点阴气调和也合理吧.png": "true",
+        "AlertRegex_身为纯阳之体，用点阴气调和也合理吧.png": "true"
     },
     "currentVersion": "1.12.13",
     "username": "王",
@@ -2901,7 +2906,9 @@
             "想要被骂！.png",
             "王子系青梅x前剑道少女天降！白学不可避.png",
             "存在忽视女孩.png",
-            "由纪子.png"
+            "由纪子.png",
+            "浅叶凌香.png",
+            "身为纯阳之体，用点阴气调和也合理吧.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -3097,8 +3104,8 @@
                 "tableConfigEventLength": "30字以内",
                 "tableConfigGrandSummaryRows": "5",
                 "tableConfigGrandSummaryLength": "200字以内",
-                "LAST_RECEIVE_TOKENS": 1868,
-                "LAST_RECEIVE_CHARS": 2541,
+                "LAST_RECEIVE_TOKENS": 10108,
+                "LAST_RECEIVE_CHARS": 19772,
                 "LAST_SEND_TOKENS": 12057,
                 "LAST_SEND_CHARS": 20858
             }
@@ -3187,7 +3194,7 @@
                 "isEdgeControlsCollapsed": true,
                 "isVisibleSettingsPanel": true,
                 "saveTopPosition": "",
-                "hiddenEdgeControls": true
+                "hiddenEdgeControls": false
             }
         },
         "EjsTemplate": {
@@ -3253,8 +3260,8 @@
                 "openai": [],
                 "google": [
                     "kingfall-ab-test",
-                    "gemini-2.5-pro-preview-06-05",
-                    "gemini-2.5-pro"
+                    "gemini-2.5-pro",
+                    "gemini-2.5-flash"
                 ]
             },
             "google_model": "gemini-2.5-pro"
@@ -3298,7 +3305,7 @@
             "id": "6607206c-474e-4454-aefa-b3fce57b5085",
             "name": "画风喜人",
             "folder_type": "NONE",
-            "filter_state": "UNDEFINED",
+            "filter_state": "SELECTED",
             "sort_order": 3,
             "is_hidden_on_character_card": false,
             "color": "",
@@ -3778,6 +3785,19 @@
         ],
         "西.png": [
             "bbde2583-8725-4642-9613-ace49c7a71f3"
+        ],
+        "哆啦C梦性爱陪伴机器人[哆啦A梦成人版]v1.2.png": [
+            "7acff0a3-99e8-4e84-9e3a-ad5565aa9453",
+            "cbbe2489-cc5d-44b3-920d-91b5bca215ac"
+        ],
+        "浅叶凌香.png": [
+            "cbbe2489-cc5d-44b3-920d-91b5bca215ac",
+            "7acff0a3-99e8-4e84-9e3a-ad5565aa9453"
+        ],
+        "身为纯阳之体，用点阴气调和也合理吧.png": [
+            "7acff0a3-99e8-4e84-9e3a-ad5565aa9453",
+            "cbbe2489-cc5d-44b3-920d-91b5bca215ac",
+            "46048998-26cf-4aff-ad08-aeff529c2dfd"
         ]
     },
     "nai_settings": {
@@ -5942,7 +5962,7 @@
         ],
         "openrouter_allow_fallbacks": true,
         "openrouter_middleout": "auto",
-        "reverse_proxy": "http://127.0.0.1:8889",
+        "reverse_proxy": "",
         "chat_completion_source": "makersuite",
         "max_context_unlocked": true,
         "api_url_scale": "",
@@ -5987,8 +6007,8 @@
         }
     ],
     "selected_proxy": {
-        "name": "饭袋",
-        "url": "http://127.0.0.1:8889",
+        "name": "None",
+        "url": "",
         "password": ""
     }
 }
