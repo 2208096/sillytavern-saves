@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "NavOpened": "false",
+        "NavOpened": "true",
         "LNavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}",
         "WINavOpened": "true",
@@ -50,7 +50,7 @@
     },
     "currentVersion": "1.12.13",
     "username": "王",
-    "active_character": "王子系青梅x前剑道少女天降！白学不可避.png",
+    "active_character": "The Goth and The Doll  Blair & Barbie.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -260,7 +260,8 @@
         "auto_save_msg_edits": true,
         "confirm_message_delete": true,
         "sort_field": "name",
-        "sort_order": "asc",
+        "sort_order": "random",
+        "sort_rule": null,
         "font_scale": 1,
         "blur_strength": 10,
         "shadow_width": 2,
@@ -2733,8 +2734,8 @@
                 "tableConfigEventLength": "30字以内",
                 "tableConfigGrandSummaryRows": "5",
                 "tableConfigGrandSummaryLength": "200字以内",
-                "LAST_RECEIVE_TOKENS": 5459,
-                "LAST_RECEIVE_CHARS": 12082,
+                "LAST_RECEIVE_TOKENS": 451,
+                "LAST_RECEIVE_CHARS": 548,
                 "LAST_SEND_TOKENS": 10364,
                 "LAST_SEND_CHARS": 20082
             }
@@ -2845,9 +2846,7 @@
             "filter_message_enabled": true,
             "cache_enabled": 0,
             "cache_size": 64,
-            "cache_hasher": "h32ToString",
-            "inject_loader_enabled": false,
-            "invert_enabled": true
+            "cache_hasher": "h32ToString"
         },
         "NoAss": {
             "noass_is_enabled": false,
@@ -4292,7 +4291,7 @@
                     },
                     {
                         "identifier": "fe674292-f640-4a41-9ed3-69adfae7be53",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "cb54b136-664b-4bfd-b83f-f6ab6998fde9",
@@ -4387,7 +4386,7 @@
         "personality_format": "[{{char}}'s personality: {{personality}}]",
         "openai_model": "",
         "claude_model": "claude-3-opus-20240229",
-        "google_model": "gemini-2.5-pro",
+        "google_model": "gemini-2.5-pro-preview-06-05",
         "ai21_model": "jamba-1.5-large",
         "mistralai_model": "mistral-medium",
         "cohere_model": "command-r-plus",
